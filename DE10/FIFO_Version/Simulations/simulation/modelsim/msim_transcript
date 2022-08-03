@@ -1,0 +1,41 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Simulations_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Dypole/Documents/FIFO_Version/newpll.vho}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:28:13 on Feb 05,2018
+# vcom -reportprogress 300 -93 -work work C:/Users/Dypole/Documents/FIFO_Version/newpll.vho 
+# ** Error: (vcom-7) Failed to open design unit file "C:/Users/Dypole/Documents/FIFO_Version/newpll.vho" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# End time: 13:28:13 on Feb 05,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/altera/14.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Simulations_run_msim_rtl_vhdl.do line 8
+# C:/altera/14.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/Dypole/Documents/FIFO_Version/newpll.vho}"
+# Load canceled
+vlog -work C:/Users/Dypole/Documents/FIFO_Version/Simulations/simulation/modelsim/rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:29:02 on Feb 05,2018
+# vlog -reportprogress 300 -work C:/Users/Dypole/Documents/FIFO_Version/Simulations/simulation/modelsim/rtl_work -refresh -force_refresh 
+# End time: 13:29:02 on Feb 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work C:/Users/Dypole/Documents/FIFO_Version/Simulations/simulation/modelsim/rtl_work -refresh -force_refresh
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:29:02 on Feb 05,2018
+# vcom -reportprogress 300 -work C:/Users/Dypole/Documents/FIFO_Version/Simulations/simulation/modelsim/rtl_work -refresh -force_refresh 
+# End time: 13:29:02 on Feb 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

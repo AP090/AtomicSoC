@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="newpll_sim/newpll.vho" type="VHDL" />
+ <topLevel name="newpll" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

@@ -1,0 +1,21 @@
+
+State Machine - |Sim1|readSideDriver:inst1|currentState
+Name currentState.SYNCHIGH currentState.CLOCKDOWN currentState.WRITEDATABIT currentState.SYNCLOW currentState.s0 currentState.s4 currentState.s3 currentState.s2 currentState.s1 currentState.PRESYNCLOW 
+currentState.PRESYNCLOW 0 0 0 0 0 0 0 0 0 0 
+currentState.s1 0 0 0 0 0 0 0 0 1 1 
+currentState.s2 0 0 0 0 0 0 0 1 0 1 
+currentState.s3 0 0 0 0 0 0 1 0 0 1 
+currentState.s4 0 0 0 0 0 1 0 0 0 1 
+currentState.s0 0 0 0 0 1 0 0 0 0 1 
+currentState.SYNCLOW 0 0 0 1 0 0 0 0 0 1 
+currentState.WRITEDATABIT 0 0 1 0 0 0 0 0 0 1 
+currentState.CLOCKDOWN 0 1 0 0 0 0 0 0 0 1 
+currentState.SYNCHIGH 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Sim1|writeSideDriver:inst|state
+Name state.s4 state.s3 state.s2 state.s1 state.s0 
+state.s0 0 0 0 0 0 
+state.s1 0 0 0 1 1 
+state.s2 0 0 1 0 1 
+state.s3 0 1 0 0 1 
+state.s4 1 0 0 0 1 

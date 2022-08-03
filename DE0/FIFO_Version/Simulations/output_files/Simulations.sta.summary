@@ -1,0 +1,229 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : -12.861
+TNS   : -12.861
+
+Type  : Slow 1100mV 85C Model Setup 'writeSideDriver:inst|state.s0'
+Slack : -9.215
+TNS   : -134.676
+
+Type  : Slow 1100mV 85C Model Setup 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -9.077
+TNS   : -124.569
+
+Type  : Slow 1100mV 85C Model Setup 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -4.621
+TNS   : -135.991
+
+Type  : Slow 1100mV 85C Model Hold 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -7.301
+TNS   : -11.705
+
+Type  : Slow 1100mV 85C Model Hold 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'writeSideDriver:inst|state.s0'
+Slack : 0.807
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : 0.822
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'writeSideDriver:inst|state.s0'
+Slack : -3.166
+TNS   : -187.569
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -3.166
+TNS   : -97.789
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'refclk'
+Slack : 4.965
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 7.545
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : -13.157
+TNS   : -13.157
+
+Type  : Slow 1100mV 0C Model Setup 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -9.386
+TNS   : -127.345
+
+Type  : Slow 1100mV 0C Model Setup 'writeSideDriver:inst|state.s0'
+Slack : -9.256
+TNS   : -136.069
+
+Type  : Slow 1100mV 0C Model Setup 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -4.095
+TNS   : -122.298
+
+Type  : Slow 1100mV 0C Model Hold 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -7.346
+TNS   : -25.915
+
+Type  : Slow 1100mV 0C Model Hold 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : 0.823
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'writeSideDriver:inst|state.s0'
+Slack : 0.841
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'writeSideDriver:inst|state.s0'
+Slack : -3.166
+TNS   : -188.459
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -3.166
+TNS   : -96.635
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'refclk'
+Slack : 4.933
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 7.439
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : -5.385
+TNS   : -5.385
+
+Type  : Fast 1100mV 85C Model Setup 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -3.914
+TNS   : -44.593
+
+Type  : Fast 1100mV 85C Model Setup 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.865
+TNS   : -98.368
+
+Type  : Fast 1100mV 85C Model Setup 'writeSideDriver:inst|state.s0'
+Slack : -3.853
+TNS   : -46.306
+
+Type  : Fast 1100mV 85C Model Hold 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.102
+TNS   : -3.102
+
+Type  : Fast 1100mV 85C Model Hold 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : 0.222
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'writeSideDriver:inst|state.s0'
+Slack : 0.262
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'writeSideDriver:inst|state.s0'
+Slack : -2.174
+TNS   : -89.278
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -2.174
+TNS   : -39.783
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'refclk'
+Slack : 4.643
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 7.883
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : -5.132
+TNS   : -5.132
+
+Type  : Fast 1100mV 0C Model Setup 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -3.839
+TNS   : -41.883
+
+Type  : Fast 1100mV 0C Model Setup 'writeSideDriver:inst|state.s0'
+Slack : -3.779
+TNS   : -42.808
+
+Type  : Fast 1100mV 0C Model Setup 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.035
+TNS   : -79.374
+
+Type  : Fast 1100mV 0C Model Hold 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.026
+TNS   : -3.272
+
+Type  : Fast 1100mV 0C Model Hold 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'writeSideDriver:inst|state.s0'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'writeSideDriver:inst|state.s0'
+Slack : -2.174
+TNS   : -89.445
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.WRITEDATABIT'
+Slack : -2.174
+TNS   : -37.698
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'readSideDriver:inst1|currentState.CLOCKDOWN'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'refclk'
+Slack : 4.632
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 7.876
+TNS   : 0.000
+
+------------------------------------------------------------

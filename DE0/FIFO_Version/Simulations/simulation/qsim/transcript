@@ -1,0 +1,110 @@
+# do Simulations.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:59:11 on Feb 05,2018
+# vlog -work work Simulations.vo 
+# -- Compiling module Sim1
+# 
+# Top level modules:
+# 	Sim1
+# End time: 13:59:11 on Feb 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 13:59:11 on Feb 05,2018
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module Sim1_vlg_sample_tst
+# -- Compiling module Sim1_vlg_check_tst
+# -- Compiling module Sim1_vlg_vec_tst
+# 
+# Top level modules:
+# 	Sim1_vlg_vec_tst
+# End time: 13:59:11 on Feb 05,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "Simulations.do" 
+# Start time: 13:59:11 on Feb 05,2018
+# Loading work.Sim1_vlg_vec_tst
+# Loading work.Sim1
+# Loading altera_ver.dffeas
+# Loading sv_std.std
+# Loading altera_lnsim_ver.generic_m10k
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.common_28nm_ram_block
+# Loading altera_lnsim_ver.common_28nm_ram_register
+# Loading altera_lnsim_ver.common_28nm_ram_pulse_generator
+# Loading altera_lnsim_ver.altera_pll_reconfig_tasks
+# Loading work.Sim1_vlg_sample_tst
+# Loading work.Sim1_vlg_check_tst
+# Loading altera_lnsim_ver.generic_device_pll
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-3017) Simulations.vo(651): [TFMPC] - Too few port connections. Expected 15, found 14.
+# 
+#         Region: /Sim1_vlg_vec_tst/i1/\inst5|newpll_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT 
+# ** Warning: (vsim-3722) Simulations.vo(651): [TFMPC] - Missing connection for port 'pllen'.
+# 
+# ** Warning: (vsim-3017) Simulations.vo(689): [TFMPC] - Too few port connections. Expected 24, found 23.
+# 
+#         Region: /Sim1_vlg_vec_tst/i1/\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL 
+# ** Warning: (vsim-3722) Simulations.vo(689): [TFMPC] - Missing connection for port 'vsspl'.
+# 
+# Loading altera_ver.PRIM_GDFF_LOW
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 416 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 832 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Sim1_vlg_vec_tst.i1.\inst5|newpll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen
+# Info: reference_clock_frequency = 100.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 1248 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(408)
+#    Time: 100 us  Iteration: 0  Instance: /Sim1_vlg_vec_tst/tb_out
+# End time: 13:59:54 on Feb 05,2018, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 4
